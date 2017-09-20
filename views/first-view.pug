@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        title="LOGOWANIE UZYTKOWANIKA"
+
+    body
+        h1 #{header}
+        form(action="/user", method="POST")
+            p Username: 
+                input(type="text", name="username", required='true')
+            p Password: 
+                input(type="password", name="password", required='true')
+            input(type="submit", value="Login")

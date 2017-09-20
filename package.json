@@ -1,0 +1,24 @@
+{
+  "name": "kodilla_zad_17_6",
+  "version": "1.0.0",
+  "description": "examp zad_17_6",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "albert",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "pug": "^2.0.0-rc.4"
+  }
+}
